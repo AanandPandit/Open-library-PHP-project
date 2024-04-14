@@ -1,0 +1,56 @@
+#iframe-container {
+    display: none;
+    width: 300px;
+    height: 300px;
+}
+
+.search-box input[type="search"] {
+    width: 300px;
+}
+
+.navbar {
+    overflow:visible;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.b-area, .login-box, .register-box {
+    margin-top: 200px;
+}
+
+/* Style the user image */
+#userImage {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the dropdown menu below the user image */
+    right: 0; /* Position the dropdown menu at the right edge of the user image */
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+a{
+    text-decoration: none;
+    color: #ab2a8b;
+}
